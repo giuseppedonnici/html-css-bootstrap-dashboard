@@ -21,6 +21,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 /* Utilities */
 .ms_no-pad {
     padding: 0;
@@ -62,8 +63,7 @@ main {
 .ms_content_head {
     width: 100%;
     /* debug */
-    height: 30%;
-    background-color: lightsalmon;
+    background-color: #1B72E8;
 }
 
 .ms_content_body {
@@ -91,4 +91,13 @@ main {
     :root {
         --ms-sidebar-width: 150px;
     }
+}
+
+/* MAIN */
+/* Content Head */
+.ms_content_head {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 8rem;
 }
