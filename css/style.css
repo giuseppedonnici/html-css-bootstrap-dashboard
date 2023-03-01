@@ -68,7 +68,7 @@ main {
 
 .ms_content_body {
     width: 100%;
-    height: 70%;
+    /* height: 70%; */
     /* debug */
     background-color: blueviolet;
 }
@@ -100,4 +100,11 @@ main {
     padding-bottom: 1.5rem;
     padding-left: 1rem;
     padding-right: 8rem;
+}
+
+/* Content body */
+.col-8,
+.col-4 {
+    /* height: 1200px; */
+    border: 1px solid red;
 }
