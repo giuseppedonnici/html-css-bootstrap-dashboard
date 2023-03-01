@@ -8,6 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- MyStyle -->
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Dashboard</title>
@@ -16,23 +20,55 @@
     <div class="ms_wrapper">
         <!-- HEADER -->
         <header>
+            <nav class="navbar bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand">
+                    <img class="logo d-lg-none" src="img/mobile-logo.png" alt="mobile logo">
+                    <img class="d-none d-lg-inline-block" src="img/logo.svg" alt="desktop logo">
+                  </a>
+                    <form class="d-flex flex-grow-1" role="search">
+                        <i class="fa-solid fa-magnifying-glass align-self-center"></i>
+                        <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Lavarel" aria-label="Search">
+                        <button class="d-lg-none btn ms_btn-color" type="submit">
+                            <i class="fa-solid fa-bell"></i>
+                        <div class="d-none d-lg-flex ms_buttons_container">
+                            <button class="d-none d-lg-flex btn text-secondary" type="submit">
+                                <i class="fa-solid fa-list"></i>
+                            </button>
+                            <button class="d-none d-lg-flex btn text-secondary" type="submit">
+                                <i class="fa-solid fa-circle-question"></i>
+                              </button>
+                              <button class="d-none d-lg-flex btn text-secondary" type="submit">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                              </button>
+                              <button class="d-none d-lg-flex btn ms_btn-color" type="submit">
+                                <i class="fa-solid fa-bell"></i>
+                              </button>
 
+                        </div>
+                    </form>
+                </div>
+              </nav>
         </header>
         <!-- /HEADER -->
 
         <!-- MAIN -->
         <main class="d-flex">
+            <!-- Sidebar -->
             <div class="ms_sidebar">
 
             </div>
+            <!-- /Sidebar -->
+            <!-- Main content -->
             <div class="ms_content">
                 <div class="ms_content_head">
-
+                    
                 </div>
                 <div class="ms_content_body">
-
+                    
                 </div>
             </div>
+            <!-- /Main content -->
         </main>
         <!-- /MAIN -->
     </div>
