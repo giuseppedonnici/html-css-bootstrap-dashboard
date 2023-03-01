@@ -1,7 +1,7 @@
 /* Variables */
 :root {
     --ms-header-height: 50px;
-    --ms-sidebar-width: 100px;
+    --ms-sidebar-width: 60px;
 }
 
 /* Reset */
@@ -13,6 +13,14 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
 /* Utilities */
 .ms_no-pad {
     padding: 0;
@@ -78,3 +86,9 @@ main {
     width: 200px;
 }
 
+/* SIDEBAR */
+@media screen and (min-width: 992px) {
+    :root {
+        --ms-sidebar-width: 150px;
+    }
+}
