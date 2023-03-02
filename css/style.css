@@ -88,6 +88,16 @@ main {
     box-shadow: unset;
 }
 
+.ms_app .badge {
+    background-color: #165BBA !important;
+}
+
+.ms_angle-right::after {
+    content: "\f101";
+    font: var(--fa-font-solid);
+
+}
+
 /* SIDEBAR */
 @media screen and (min-width: 992px) {
     :root {
