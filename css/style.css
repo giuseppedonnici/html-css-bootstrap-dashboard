@@ -119,3 +119,7 @@ main {
 .table td img {
     width: 40px;
 }
+
+table td {
+    vertical-align: middle;
+}
