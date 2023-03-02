@@ -27,8 +27,10 @@
                         <img class="d-none d-lg-inline-block" src="img/logo.svg" alt="desktop logo">
                     </a>
                     <form class="d-flex flex-grow-1" role="search">
-                        <i class="fa-solid fa-magnifying-glass align-self-center"></i>
-                        <input class="form-control me-2 bg-secondary bg-opacity-25" type="search" placeholder="Prova a cercare: Lezioni di Lavarel" aria-label="Search">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Lavarel" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
                         <button class="d-lg-none btn ms_btn-color" type="submit">
                             <i class="fa-solid fa-bell"></i>
                         </button>    
@@ -114,9 +116,10 @@
                     <div class="container-fluid">
                         <div class="row g-4">
                             <div class="col-12 col-lg-8">
+                                <!-- Prossime classi card -->
                                 <div class="card mb-4">
                                     <div class="card-header">
-                                      <h4>Prossime classi</h4>
+                                        <h4>Prossime classi</h4>
                                     </div>
                                     <div class="card-body">
                                         <table class="table">
@@ -151,7 +154,7 @@
                                                 </td>
                                               </tr>
                                               <tr>
-                                                <td colspan="2"><img src="img/class-avatar.jpg" alt="class avatar" class="me-3">Classe 77</td>
+                                                  <td colspan="2"><img src="img/class-avatar.jpg" alt="class avatar" class="me-3">Classe 77</td>
                                                 <td class="d-none d-md-table-cell">17 Feb 2021</td>
                                                 <td class="d-none d-md-table-cell">20%</td>
                                                 <td><span class="badge text-bg-warning text-white">process</span></td>
@@ -210,11 +213,12 @@
                                                     <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
                                                 </td>
                                               </tr>
-                                              
                                             </tbody>
                                         </table>
                                     </div>
                                 </div>
+                                <!-- /Prossime classi card -->
+
                                 <div class="card mb-4">
                                     <div class="card-header">
                                       Featured
