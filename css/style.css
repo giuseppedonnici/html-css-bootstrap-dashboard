@@ -31,8 +31,6 @@ a {
 .ms_wrapper {
     width: 100%;
     height: 100vh;
-    /* debug */
-    background-color: #051E34;
 }
 
 header {
@@ -51,14 +49,13 @@ main {
     width: calc(100% - var(--ms-sidebar-width));
     height: 100%;
     overflow-y: auto;
-    /* debug */
-    background-color: yellow;
 }
 
 .ms_sidebar {
     width: var(--ms-sidebar-width);
     height: 100%;
     background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
 }
 
 .ms_content_head {
@@ -71,7 +68,6 @@ main {
     width: 100%;
     /* height: 70%; */
     /* debug */
-    background-color: blueviolet;
 }
 
 /* HEADER */
@@ -122,4 +118,14 @@ main {
 
 table td {
     vertical-align: middle;
+}
+
+/* Todo */
+.input-group-text {
+    background-color: unset;
+}
+
+/* Active users */
+.ms_active-users a {
+    text-decoration: underline;
 }
