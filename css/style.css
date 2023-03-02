@@ -36,8 +36,6 @@ a {
 header {
     width: 100%;
     height: var(--ms-header-height);
-    /* debug */
-    background-color: lightcoral;
 }
 
 main {
@@ -59,15 +57,7 @@ main {
 }
 
 .ms_content_head {
-    width: 100%;
-    /* debug */
     background-color: #1B72E8;
-}
-
-.ms_content_body {
-    width: 100%;
-    /* height: 70%; */
-    /* debug */
 }
 
 /* HEADER */
@@ -95,7 +85,6 @@ main {
 .ms_angle-right::after {
     content: "\f101";
     font: var(--fa-font-solid);
-
 }
 
 /* SIDEBAR */
@@ -115,12 +104,6 @@ main {
 }
 
 /* Content body */
-.col-8,
-.col-4 {
-    /* height: 1200px; */
-    border: 1px solid red;
-}
-
 /* Table */
 .table td img {
     width: 40px;
@@ -139,3 +122,10 @@ table td {
 .ms_active-users a {
     text-decoration: underline;
 }
+
+/* HOVER */
+.ms_sidebar a:hover {
+    color: unset;
+    background-color: lightgrey;
+}
+
