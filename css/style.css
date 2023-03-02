@@ -50,6 +50,7 @@ main {
 .ms_content {
     width: calc(100% - var(--ms-sidebar-width));
     height: 100%;
+    overflow-y: auto;
     /* debug */
     background-color: yellow;
 }
@@ -86,6 +87,11 @@ main {
     width: 200px;
 }
 
+.form-control:focus {
+    border: unset;
+    box-shadow: unset;
+}
+
 /* SIDEBAR */
 @media screen and (min-width: 992px) {
     :root {
@@ -107,4 +113,9 @@ main {
 .col-4 {
     /* height: 1200px; */
     border: 1px solid red;
+}
+
+/* Table */
+.table td img {
+    width: 40px;
 }
