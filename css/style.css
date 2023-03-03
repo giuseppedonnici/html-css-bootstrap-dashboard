@@ -103,6 +103,16 @@ main {
     padding-right: 8rem;
 }
 
+.ms_offcanvas-width {
+    width: 100vw !important;
+}
+
+@media screen and (min-width: 992px) {
+    .ms_offcanvas-width {
+        width: 60vw !important;
+    }
+}
+
 /* Content body */
 /* Table */
 .table td img {
@@ -129,3 +139,7 @@ table td {
     background-color: lightgrey;
 }
 
+.new_student .btn:hover {
+    color: black !important;
+    background-color: white;
+}
