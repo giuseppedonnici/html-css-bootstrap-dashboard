@@ -20,37 +20,51 @@
     <div class="ms_wrapper">
         <!-- HEADER -->
         <header>
-            <nav class="navbar bg-light h-100 ms_no-pad">
-                <div class="container-fluid">
-                    <a class="navbar-brand">
-                        <img class="logo d-lg-none" src="img/mobile-logo.png" alt="mobile logo">
-                        <img class="d-none d-lg-inline-block" src="img/logo.svg" alt="desktop logo">
-                    </a>
-                    <form class="d-flex flex-grow-1" role="search">
-                        <div class="input-group">
-                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                            <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Lavarel" aria-label="Username" aria-describedby="basic-addon1">
-                          </div>
-                        <button class="d-lg-none btn ms_btn-color" type="submit">
-                            <i class="fa-solid fa-bell"></i>
-                        </button>    
-                        <div class="d-none d-lg-flex ms_buttons_container">
-                            <button class="d-none d-lg-flex btn text-secondary" type="submit">
-                                <i class="fa-solid fa-list"></i>
-                            </button>
-                            <button class="d-none d-lg-flex btn text-secondary" type="submit">
-                                <i class="fa-solid fa-circle-question"></i>
-                              </button>
-                              <button class="d-none d-lg-flex btn text-secondary" type="submit">
-                                <i class="fa-solid fa-ellipsis-vertical"></i>
-                              </button>
-                              <button class="d-none d-lg-flex btn ms_btn-color" type="submit">
-                                <i class="fa-solid fa-bell"></i>
-                              </button>
-                        </div>
-                    </form>
+          <nav class="navbar bg-light h-100 ms_no-pad">
+            <div class="container-fluid">
+              <a class="navbar-brand">
+                <img class="logo d-lg-none" src="img/mobile-logo.png" alt="mobile logo">
+                <img class="d-none d-lg-inline-block" src="img/logo.svg" alt="desktop logo">
+              </a>
+              <form class="d-flex flex-grow-1" role="search">
+                <div class="input-group">
+                  <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                  <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Lavarel" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
-            </nav>
+                <div class="btn-group dropstart">
+                  <button type="button" class="d-lg-none btn ms_btn-color" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-bell"></i>
+                  </button>
+                  <ul class="dropdown-menu p-3">
+                    <li><a href="#">Profilo</a></li>
+                    <li><a href="#">Fatturazione</a></li>
+                    <li><a href="#">Logout</a></li>
+                  </ul>
+                </div>
+                <div class="d-none d-lg-flex ms_buttons_container">
+                  <button class="d-none d-lg-flex btn text-secondary" type="submit">
+                    <i class="fa-solid fa-list"></i>
+                  </button>
+                  <button class="d-none d-lg-flex btn text-secondary" type="submit">
+                    <i class="fa-solid fa-circle-question"></i>
+                  </button>
+                  <button class="d-none d-lg-flex btn text-secondary" type="submit">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                  </button>
+                  <div class="btn-group dropstart">
+                    <button type="button" class="d-none d-lg-flex btn ms_btn-color ms_bell" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa-solid fa-bell"></i>
+                    </button>
+                    <ul class="dropdown-menu p-3">
+                      <li><a href="#">Profilo</a></li>
+                      <li><a href="#">Fatturazione</a></li>
+                      <li><a href="#">Logout</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </nav>
         </header>
         <!-- /HEADER -->
 

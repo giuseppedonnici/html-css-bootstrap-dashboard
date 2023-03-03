@@ -104,7 +104,7 @@ main {
 }
 
 .ms_offcanvas-width {
-    width: 100vw !important;
+    width: 100% !important;
 }
 
 @media screen and (min-width: 992px) {
@@ -142,4 +142,9 @@ table td {
 .new_student .btn:hover {
     color: black !important;
     background-color: white;
+}
+
+.dropstart .dropdown-menu[data-bs-popper] {
+    top: 29px;
+    right: 10%;
 }
